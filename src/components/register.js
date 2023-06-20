@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import validator from 'validator';
+import register.css from 'Components/register.css';
 
 function register(props) {
     const [name,setName]=useState('');
