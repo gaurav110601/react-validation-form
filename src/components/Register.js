@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import validator from 'validator';
-import './register.css';
+import './components/Register.css';
 
-function register(props) {
+function Register(props) {
     const [name,setName]=useState('');
     const [email,setEmail]=useState('');
     const [mobile,setMobile]=useState('');
@@ -104,4 +104,4 @@ function register(props) {
   )
 }
 
-export default register;
+export default Register;
