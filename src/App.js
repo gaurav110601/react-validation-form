@@ -1,5 +1,5 @@
 import './App.css';
-import Home from './components/register';
+import register from './components/register';
 function App() {
 
   return (
